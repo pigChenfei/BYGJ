@@ -1,0 +1,259 @@
+/**************************** =S Base       ******************************************/
+/**
+ * reset style
+ */
+html{height:100%;  
+/*min-width: 1200px;*/
+}
+html,body{
+    height:100%;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+}
+body{position:relative;min-height:100%; height:auto !important; height:100%; }
+
+/*
+	TODO remove settings on BODY since we can't namespace it.
+*/
+/*
+	TODO test putting a class on HEAD.
+		- Fails on FF.
+*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin:0;
+    padding:0;
+}
+body{
+    line-height: 1.5;
+
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,
+img {
+    border:0;
+}
+/*
+	TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
+*/
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style:normal;
+    font-weight:normal;
+}
+
+code,
+kbd,
+samp,
+tt{
+    font-size: 100%;
+}
+
+
+/*
+	TODO Figure out where this list-style rule is best set. Hedger has a request to investigate.
+*/
+ol,
+ul,
+li{
+    list-style:none;
+}
+
+caption,
+th {
+    text-align:left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+:link,
+:visited {
+    text-decoration: none;
+}
+
+/* remember to define focus styles!
+:focus {
+	outline: 0;
+}
+*/
+
+abbr,
+acronym {
+    border:0;
+    font-variant:normal;
+}
+
+
+
+
+/* to preserve line-height and selector appearance */
+sup {
+    font-size: 100%;
+    vertical-align:text-top;
+}
+sub {
+    font-size: 100%;
+    vertical-align:text-bottom;
+}
+input,
+textarea,
+select {
+    font-family:inherit;
+    font-size:inherit;
+    font-weight:inherit;
+}
+/*to enable resizing for IE*/
+input,
+textarea,
+select {
+    *font-size:100%;
+}
+/*because legend doesn't inherit in IE */
+legend {
+    color:#000;
+}
+
+/* clear float */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-table;
+}
+
+html .clearfix {
+    /*height: 1%;*/
+}
+
+.clearfix {
+    display: block;
+}
+a{
+    cursor: pointer;
+}
+body{
+    font-family: 'Microsoft Yahei', Arial, Simsun, sans-serif;
+}
+
+/*****************common style*******************/
+.hide{
+    visibility: hidden !important;
+    display: none !important;
+}
+.hidden{
+    visibility: hidden !important;
+}
+.show{
+    visibility: visible !important;
+    display: block !important;
+}
+.ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+button{
+    font-family: 'Microsoft Yahei', Arial, Simsun, sans-serif;
+}
+a{
+    color: #333;
+}
+a:hover,a:focus{
+    color: #333;
+    text-decoration: none;
+}
+html ::-webkit-scrollbar-track-piece{
+    background-color:#fff;/*//滚动条的背景颜色*/
+    -webkit-border-radius:0;/*//滚动条的圆角宽度*/
+}
+
+html ::-webkit-scrollbar{
+    width:10px;/*//滚动条的宽度*/
+    height:8px;/*//滚动条的高度*/
+}
+
+html ::-webkit-scrollbar-thumb:vertical{/*//垂直滚动条的样式*/
+    height:50px;
+    background-color:#acacac;
+    -webkit-border-radius:4px;
+    outline:2px solid #fff;
+    outline-offset:-2px;
+    border: 2px solid #fff;
+}
+html ::-webkit-scrollbar-thumb:hover{/*//滚动条的hover样式*/
+    height:50px;
+    background-color:#acacac;
+    -webkit-border-radius:4px;
+}
+html ::-webkit-scrollbar-thumb:horizontal{ /*//水平滚动条的样式*/
+    width: 5px;
+    background-color: #CCCCCC;
+    -webkit-border-radius: 6px;
+}
+
+/**************************** =E Base       ******************************************/
+
+/**************************  =S    复制组件        ***************************/
+
+.CopyUIBox {
+    position: relative;
+}
+
+/*************************   =E     复制组件        ***************************/

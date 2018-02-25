@@ -1,0 +1,12 @@
+/.buildpath
+/.env
+/.idea/
+/.git
+/.project
+/dump.rdb
+/vendor/
+/.settings/
+/composer.phar
+/storage/app
+/public/storage
+composer.lock

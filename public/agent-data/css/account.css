@@ -1,0 +1,173 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	min-width: 1200px;
+}
+ul,li,p{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	min-width: 1200px;
+	padding: 0;
+}
+
+#page_header{
+	vertical-align: middle;
+	min-width: 1200px;
+	background-color: #333;
+}
+#page_header #info_header{
+	vertical-align: middle;
+	text-align: right;
+	margin-top: 25px;
+	height: 34px;
+	padding: 0;
+	color: white;
+}
+#page_header #info_header p{
+	display: inline-block;
+	margin-right: 30px;
+}
+#page_header #info_header p span{
+	color: #f55a48;
+	font-weight: bold;
+	margin-right: 5px;
+}
+#page_header #info_header button{
+	width: 100px;
+	height: 34px;
+	border: none;
+}
+#page_header #info_header #btn_account{
+	background-color: #f55a48;
+}
+#page_header #info_header #btn_exit{
+	background-color: #CCCCCC;
+}
+
+/*导航*/
+.navbar-default{
+	border: none;
+	border-radius: 0;
+	background-color: #98171a;
+	margin: 0;
+	box-shadow: 0px 4px 6px gray;
+	z-index: 1111;
+}
+.navbar-default .nav li{
+	width: 120px;
+	height: 50px;
+	text-align: center;
+}
+.navbar-default .nav li a{
+	color: white;
+	margin-top: 10px;
+	height: 30px;
+	padding: 5px 10px;
+}
+.navbar-default .nav li a:hover{
+	color: lightblue;
+	background: none;
+}
+.navbar-default .nav li.active a,.navbar-default .nav li.active a:hover,.navbar-default .navbar-nav > .active > a:focus{
+	background: none;
+	color: white;
+}
+.navbar-default .nav li.active,.navbar-default .nav li.active a:visited{
+	background-color: #811315;
+}
+#myTab{
+	width: 1200px;
+}
+/*账户中心*/
+#myTabContent{
+	background-color: #EEEEEE;
+	overflow: hidden;
+}
+
+#myTabContent .content{
+	margin: 30px auto;
+	border: 1px solid lightgray;
+}
+#myTabContent .content .div_table{
+	background-color: white;
+	padding: 10px 30px 30px;
+	
+}
+#myTabContent .content h4{
+	border-bottom: 1px solid lightgray;
+	margin: 0;
+	line-height: 50px;
+	padding: 0 15px;
+	background-color: #EFEFEF;
+}
+#myTabContent .content table{
+	margin-top: 10px;
+}
+#myTabContent #account .content table caption{
+	color: #f55a48;
+	font-size: 16px;
+	font-weight: bold;
+}
+#myTabContent #account .content table td{	
+	width: 400px;
+	color: gray;
+}
+#myTabContent #account .content table .info_label{
+	background-color: #EEEEEE;
+	width: 200px;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+#myTabContent #account .content table .btn_copy{
+	border: none;
+	background: none;
+	color: #f55a48;
+}
+
+
+/*页尾*/
+footer{
+	background-color: #545454;
+	padding: 20px 0;
+	color: white;
+}
+footer .company_logo{
+	display: inline-block;	
+	width: 16%;
+	margin-bottom: 10px;
+}
+footer #nav_footer li{
+	list-style: none;
+	display: inline-block;
+	width: 70px;
+	text-align: center;
+	font-size: 13px;
+}
+footer #nav_footer li a{
+	text-decoration: none;
+	color: white;
+	border-right: 1px solid gray;
+	padding-right: 8px;
+	
+}
+footer .row_left{
+	width: 70%;
+	display: inline-block;
+}
+footer .row_left p{
+	padding-left: 5px;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+footer .row_right{
+	width: 30%;
+	display: inline-block;
+}
+footer .media img{
+	width: 40px;
+	margin-top: 10px;
+}

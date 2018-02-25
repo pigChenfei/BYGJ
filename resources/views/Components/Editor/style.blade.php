@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="{!! asset('wangEditor/css/wangEditor.min.css') !!}">

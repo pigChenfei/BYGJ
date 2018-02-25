@@ -1,0 +1,25 @@
+.index-main {
+  background: #1a1a1a;
+  height: auto;
+}
+
+.index-main .main-wrap {
+  height: auto;
+  padding: 50px 30px;
+}
+
+.index-main .main-wrap .tab-wrap .col-3 {
+  height: 384px;
+  margin: 5px 0;
+}
+
+.index-main .main-wrap .tab-wrap .bbin,
+.index-main .main-wrap .tab-wrap .lebo {
+  background: url(../img/live/main-live2.jpg);
+  background-position-y: -384px;
+}
+
+.index-main .main-wrap .tab-wrap .bbin:hover,
+.index-main .main-wrap .tab-wrap .lebo:hover {
+  background-position-y: 0;
+}

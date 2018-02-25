@@ -1,0 +1,19 @@
+.row{margin-bottom: 20px;color: #FFF;}
+.cell{width: 560px;height: 225px;background-color: #3e314a;}
+.live-img{width: 364px;height: 225px;float: left;position: relative;}
+.plum-cell{width: 146px;height: 35px;line-height: 35px;text-align: center;border-radius: 30px;background-color: #a671ff;display: none;margin-top: 95px;margin-left: 109px;}
+.live-img:hover::before{content: "";position: absolute;width: 100%;height: 100%;background-color: rgba(0,0,0,0.5);}
+.live-img:hover .plum-cell{display: block;position: absolute;}
+.live-1{background-image: url(../img/live/live-1.jpg)}
+.live-2{background-image: url(../img/live/live-2.jpg)}
+.live-3{background-image: url(../img/live/live-3.jpg)}
+.live-4{background-image: url(../img/live/live-4.jpg)}
+.live-5{background-image: url(../img/live/live-5.jpg)}
+.live-6{background-image: url(../img/live/live-6.jpg)}
+.live-7{background-image: url(../img/live/live-7.jpg)}
+.live-more{background-image: url(../img/live/live-more.jpg)}
+.text-wrap{width: 196px;float: left;padding-top: 35px;padding-left: 30px;}
+.cell-tit{font-size: 18px;font-weight: bold;margin-bottom: 20px;position: relative;}
+.cell-tit::before{content:'';position: absolute;width: 3px;height: 20px;background-color: #f7b531;left: -15px;top: 1px;}
+.cell-text{font-size: 12px;line-height: 1.6;color:rgba(255,255,255,0.8);}
+.index-main a,.index-main a:link,.index-main a:visited,.index-main a:active,.index-main a:hover {color: #FFF;}

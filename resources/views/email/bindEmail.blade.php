@@ -1,0 +1,1 @@
+<div>您此次绑定的邮箱链接为：<a href="{!! $code !!}" target="_blank"><font color="aqua">{!! $code !!}</font></a>，请点击该链接，及时绑定。</div>

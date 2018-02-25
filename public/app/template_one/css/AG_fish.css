@@ -1,0 +1,29 @@
+.fish-main .main-wrap {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px 30px;
+}
+
+.fish-main .main-wrap .tab-item {
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.fish-main .main-wrap .tab-item a {
+  display: inline-block;
+  width: 560px;
+  height: 250px;
+}
+
+.fish-main .main-wrap .fish1 {
+  background: url(../img/fish/item-img1.jpg);
+}
+
+.fish-main .main-wrap .fish2 {
+  background: url(../img/fish/item-img2.jpg);
+}
+
+.fish-main .main-wrap .fish3 {
+  background: url(../img/fish/item-img3.jpg);
+}

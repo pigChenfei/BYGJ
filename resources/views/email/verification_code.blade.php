@@ -1,0 +1,1 @@
+<div>您的忘记密码邮箱验证码是：<font color="aqua">{!! $code !!}</font></div>

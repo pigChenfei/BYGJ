@@ -1,0 +1,6 @@
+SET FOREIGN_KEY_CHECKS=0;
+
+ALTER TABLE `inf_agent` ADD COLUMN `level` tinyint(1) DEFAULT '1' COMMENT '代理等级默认1级';
+
+
+SET FOREIGN_KEY_CHECKS=1;

@@ -1,0 +1,409 @@
+label {
+  font-size: 14px;
+  font-weight: normal; }
+
+.video-game-container {
+  width: 1202px;
+  margin: 0 auto;
+  padding: 30px; }
+
+.video-game-container input {
+  color: rgba(0, 0, 0, 0.8) !important; }
+
+.video-game-container input::-webkit-input-placeholder,
+.video-game-container textarea::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: rgba(0, 0, 0, 0.5) !important; }
+
+.video-game-container input:-moz-placeholder,
+.video-game-container textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: rgba(0, 0, 0, 0.5) !important; }
+
+.video-game-container input::-moz-placeholder,
+.video-game-container textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: rgba(0, 0, 0, 0.5) !important; }
+
+.video-game-container input:-ms-input-placeholder,
+.video-game-container textarea:-ms-input-placeholder {
+  /* Internet Explorer 10+s */
+  color: rgba(0, 0, 0, 0.5) !important; }
+
+.video-game-container .game-nav-container {
+  height: 183px;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5; }
+
+.video-game-container .game-nav-container .game-menu-wrap {
+  border-bottom: 1px dashed #e5e5e5; }
+
+.video-game-container .game-nav-container .game-menu-wrap .game-menu {
+  float: left;
+  margin-bottom: 0; }
+
+.video-game-container .game-nav-container .game-menu-wrap .game-menu a:hover,
+.video-game-container .game-nav-container .game-menu-wrap .game-menu a.active {
+  color: #a671ff;
+  text-decoration: underline; }
+
+.video-game-container .game-nav-container .game-menu-wrap .game-menu li {
+  float: left;
+  width: 114px;
+  height: 58px;
+  text-align: center;
+  line-height: 58px; }
+
+.video-game-container .game-nav-container .game-menu-wrap .game-menu li a:active,
+.video-game-container .game-nav-container .game-menu-wrap .game-menu li a:hover {
+  text-decoration: underline; }
+
+.video-game-container .game-nav-container .game-menu-wrap .game-search-box {
+  float: right;
+  padding: 12px 20px 0 0; }
+
+.video-game-container .game-nav-container .game-menu-wrap .game-search-box input {
+  width: 300px;
+  border-radius: 5px; }
+
+.video-game-container .game-nav-container .game-menu-wrap .game-search-box .form-control,
+.video-game-container .game-nav-container .game-menu-wrap .game-search-box .btn {
+  height: 30px;
+  padding: 4px 12px;
+  border: 1px solid #e5e5e5; }
+
+.video-game-container .game-nav-container .game-menu-wrap .game-search-box button {
+  width: 60px; }
+
+.video-game-container .game-nav-container .game-nav {
+  padding: 17px 25px; }
+
+.video-game-container .game-nav-container .game-nav .game-nav-line {
+  font-size: 12px;
+  line-height: 30px; }
+
+.video-game-container .game-nav-container .game-nav .game-nav-line label {
+  font-size: 12px;
+  float: left; }
+
+.video-game-container .game-nav-container .game-nav .game-nav-line li {
+  float: left;
+  margin: 0 9px; }
+
+.video-game-container .game-nav-container .game-nav .game-nav-line li a {
+  display: inline-block;
+  border: 1px solid transparent;
+  line-height: 1;
+  padding: 5px; }
+
+.video-game-container .game-nav-container .game-nav .game-nav-line .active a {
+  padding: 5px;
+  border-radius: 5px;
+  color: #a671ff;
+  border-color:#a671ff;
+  background: #FFF; }
+
+.video-game-container .game-list-container {
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 1px solid #e5e5e5;
+  background-color: #fbfbfb;
+  margin-bottom: 5px; }
+
+.video-game-container .game-list-container .game-list-showterm {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #e5e5e5; }
+
+.video-game-container .game-list-container .game-list-showterm .reward-rate,
+.video-game-container .game-list-container .game-list-showterm .popular,
+.video-game-container .game-list-container .game-list-showterm .show-type-box {
+  display: inline-block;
+  padding: 0 20px;
+  height: 48px;
+  border-left: 1px solid #e5e5e5;
+  line-height: 48px; }
+
+.video-game-container .game-list-container .game-list-showterm .glyphicon {
+  margin: 0 0 0 6px;
+  color: #919191; }
+
+.video-game-container .game-list-container .game-list-showterm .reward-rate.active,
+.video-game-container .game-list-container .game-list-showterm .popular.active {
+  background: #a671ff; }
+
+.video-game-container .game-list-container .game-list-showterm .reward-rate.active a,
+.video-game-container .game-list-container .game-list-showterm .popular.active a {
+  color: #FFF; }
+
+.video-game-container .game-list-container .game-list-showterm .reward-rate.active .glyphicon,
+.video-game-container .game-list-container .game-list-showterm .popular.active .glyphicon {
+  display: inline-block; }
+
+.video-game-container .game-list-container .game-list-showterm .reward-rate .glyphicon,
+.video-game-container .game-list-container .game-list-showterm .popular .glyphicon {
+  display: none; }
+
+.video-game-container .game-list-container .checkbox-wrap {
+  display: inline-block;
+  line-height: 48px;
+  height: 48px;
+  padding: 0 10px 0 25px; }
+
+.video-game-container .game-list-container .checkbox-wrap input {
+  position: relative;
+  top: 2px;
+  margin-right: 5px; }
+
+.video-game-container .game-list-container .checkbox-wrap label,
+.video-game-container .game-list-container .checkbox-wrap input {
+  cursor: pointer; }
+
+.video-game-container .game-list-container .show-type-box .glyphicon {
+  line-height: 48px;
+  font-size: 22px;
+  margin: 0 3px; }
+
+.video-game-container .game-list-container .show-type-box .glyphicon-th-list {
+  font-size: 22px;
+  position: relative;
+  top: 1px; }
+
+.video-game-container .game-list-container .show-type-box .active {
+  color: #a671ff; }
+
+.video-game-container .game-title {
+  background: #fbfbfb;
+  color: rgba(255,255,255,0.9); }
+
+.video-game-container .game-list.tile-show .game-item {
+  width: 228px;
+  height: 280px;
+  float: left;
+  position: relative;
+  padding: 25px 14px; }
+
+.video-game-container .game-list.tile-show .game-item .game-title {
+  width: 200px;
+  line-height: 25px;
+  padding-left: 10px;
+  background: #a671ff; }
+
+.video-game-container .game-list.tile-show .game-item .game-img {
+  width: 200px;
+  height: 120px;
+  background: url(../img/videogame/gameimg.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center center; }
+
+.video-game-container .game-list.tile-show .game-item .game-img .collect {
+  width: 100%;
+  height: 100%;
+  padding: 30px 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7); }
+
+.video-game-container .game-list.tile-show .game-item .game-img .collect .collect-main {
+  width: 100px;
+  height: 60px;
+  background: url(../img/videogame/no-collect.png) no-repeat center center;
+  cursor: pointer;
+  text-align: right;
+  padding-right: 15px; }
+
+.video-game-container .game-list.tile-show .game-item .game-img .collect.active .collect-main {
+  background-image: url(../img/videogame/collect.png); }
+
+.video-game-container .game-list.tile-show .game-item em {
+  margin-right: 3px; }
+
+.video-game-container .game-list.tile-show .game-item .game-line {
+  height: 1px;
+  width: 175px;
+  background: #e5e5e5;
+  margin: 0 auto 15px; }
+
+.video-game-container .game-list.tile-show .game-item .popular-tab,
+.video-game-container .game-list.tile-show .game-item .reward-tab {
+  text-align: center;
+  float: left;
+  width: 50%;
+  line-height: 40px; }
+
+.video-game-container .game-list.tile-show .game-item button {
+  margin: 0 2px;
+  width: 90px; }
+
+.video-game-container .game-list.tile-show .game-item + .game-item {
+  border-left: 1px solid #e5e5e5; }
+
+.video-game-container .game-list.tile-show .game-item:nth-child(5n+1) {
+  border-left: 0; }
+
+.video-game-container .game-list.tile-show .game-item:nth-child(n+6) {
+  border-top: 1px solid #e5e5e5; }
+
+button.btn.btn-warning2 {
+  color: #a671ff;
+  border-color: #a671ff;
+  background-color: none; }
+
+button.btn.btn-warning3 {
+  background-color: #e5e5e5; }
+
+.video-game-container .game-list.tile-show .show-wrap {
+  position: absolute;
+  width: 230px;
+  height: 283px;
+  top: -2px;
+  left: -2px;
+  border-radius: 2px;
+  border: 2px solid #f7b530;
+  display: none;
+  z-index: 8;
+  padding: 25px 14px; }
+
+.video-game-container .game-list.tile-show .game-item:nth-child(1) .show-wrap,
+.video-game-container .game-list.tile-show .game-item:nth-child(2) .show-wrap,
+.video-game-container .game-list.tile-show .game-item:nth-child(3) .show-wrap,
+.video-game-container .game-list.tile-show .game-item:nth-child(4) .show-wrap,
+.video-game-container .game-list.tile-show .game-item:nth-child(5) .show-wrap {
+  height: 284px; }
+
+.show-wrap .btn-wrap{
+  margin-left: 1px;
+  margin-top: 1px;
+}
+
+.num-wrap{
+  width: 199px;
+}
+
+.video-game-container .game-list.tile-show .game-item:nth-child(5n+1) .show-wrap .btn-wrap{
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.video-game-container .game-list.tile-show .game-item:nth-child(5n+1):hover .show-wrap {
+  width: 232px; }
+
+.video-game-container .game-list.tile-show .game-item:hover .show-wrap {
+  display: block; }
+
+.video-game-container .game-list.tile-show .game-item:hover .hide-wrap {
+  display: none; }
+
+.video-game-container .game-list.details-show {
+  color: #7f7f7f;
+  text-align: center; }
+
+.video-game-container .game-list.details-show .table-header {
+  background: #f7f7f7;
+  border-bottom:1px solid #e5e5e5;
+  height: 50px; }
+
+.video-game-container .game-list.details-show .table-header .table-cell + .table-cell i {
+  width: 100%;
+  line-height: 1;
+  display: inline-block;
+  border-left: 1px solid #e5e5e5; }
+
+.video-game-container .game-list.details-show .table-item {
+  height: 60px; }
+
+.video-game-container .game-list.details-show .table-item .table-cell + .table-cell {
+  border-left: 1px solid #e5e5e5; }
+
+.video-game-container .game-list.details-show .table-item + .table-item {
+  border-top: 1px solid #e5e5e5; }
+
+.video-game-container .game-list.details-show .game-name {
+  width: 245px; }
+
+.video-game-container .game-list.details-show .game-platform,
+.video-game-container .game-list.details-show .payline,
+.video-game-container .game-list.details-show .game-try,
+.video-game-container .game-list.details-show .bonus-pool {
+  width: 85px; }
+
+.video-game-container .game-list.details-show .game-type {
+  width: 200px; }
+
+.video-game-container .game-list.details-show .sort-mode {
+  width: 230px; }
+
+.video-game-container .game-list.details-show .sort-mode .table-cell {
+  width: 115px;
+  border-color: #FFF !important; }
+
+.video-game-container .game-list.details-show .action {
+  width: 116px; }
+
+.video-game-container .game-list.details-show .table-item .action {
+  cursor: pointer; }
+
+.video-game-container .game-list.details-show .table-item .action .glyphicon {
+  top: 2px;
+  left: -2px; }
+
+.video-game-container .game-list.details-show .table-item .action .glyphicon-star {
+  display: none; }
+
+.video-game-container .game-list.details-show .table-item .action .glyphicon-star-empty {
+  display: inline-block; }
+
+.video-game-container .game-list.details-show .table-item .action.active .glyphicon-star {
+  display: inline-block; }
+
+.video-game-container .game-list.details-show .table-item .action.active .glyphicon-star-empty {
+  display: none; }
+
+.video-game-container .game-list.no-game {
+  height: 450px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  background: #f7f7f7 url(../img/videogame/no-my-collect.png) no-repeat center center; }
+
+.btn-warning {
+  background: #f7b530;
+  border-color: #f7b530;
+}  
+.btn-warning:hover,
+.btn-warning:link:hover,
+.btn-warning:visited:hover,
+.btn-warning:active:hover,
+.btn-warning[disabled]:hover,
+.btn-warning:focus {
+  background: #f3aa17;
+  border-color: #f3aa17;
+}  
+.btn-warning2,
+.btn-warning2:link,
+.btn-warning2:visited,
+.btn-warning2:active,
+.btn-warning2:hover {
+  border-color: #a671ff;
+  background: transparent;
+  color: #a671ff !important;
+}
+
+.game-search-box .btn-warning{
+  background-color: #a671ff;
+  border-color: #a671ff;
+  margin-left: 5px;
+}
+
+.game-search-box .form-control{
+  background-color: #e5e5e5;
+}
+
+.btn-gradient-red, .btn-gradient-red:link, .btn-gradient-red:visited, .btn-gradient-red:active, .btn-gradient-red:hover{
+  background: none;
+  background-color: #a671ff;
+  border-color: #a671ff;
+  margin-left: 5px;
+  color: #FFF;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "copy.UI.js",
+  "version": "1.0.0",
+  "description": "copy 复制组件",
+  "keywords": "复制组件 copy.UI.js",
+  "private": false,
+  "license": "ISC",
+  "author": "白云飘飘",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  }
+}

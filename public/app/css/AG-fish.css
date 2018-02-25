@@ -1,0 +1,21 @@
+.AG-fish-game{
+    background: url("../img/AgFish_banner.png") center;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 768px;
+    margin: 0 auto;
+    padding-top: 825px;
+    position: relative;
+}
+.AG-fish-game-btn{
+    background: url("../img/btn_start.png");
+    width: 271px;
+    height: 95px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+ 	margin:  0 auto;
+ 	position: absolute;
+ 	top: 43%;
+ 	left: 31%;
+}

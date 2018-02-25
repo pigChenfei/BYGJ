@@ -1,0 +1,60 @@
+.sports{
+    background: url("../img/sports-picture.png");
+    width: 100%;
+    background-size:100%;
+    background-repeat: no-repeat;
+    min-height: 570px;
+    padding-top: 20px;
+}
+.sports>div{
+    width: 1098px;
+    min-height: 500px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding-top: 25px; 
+    margin-top: 15px;
+}
+
+.sports>div>div:nth-child(1)>nav{
+    width: 680px!important;
+    height: 30px;
+    margin: 0 auto;
+
+}
+.sports>div>div:nth-child(1)>nav>ul{
+    width: 100%;
+    background-color: #232526;
+    border-radius: 5px;
+    padding: 0 3px;
+    height: 30px;
+}
+.sports>div>div:nth-child(1)>nav>ul>li{
+    width: 25%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.sports>div>div:nth-child(1)>nav>ul>li>a{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    height: 25px;
+    padding-top: 1px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+    border: 0;
+}
+.sports>div>div:nth-child(1)>nav>.nav-tabs>li.active>a, .sports>div>div:nth-child(1)>nav>.nav-tabs>li.active>a:hover, .sports>div>div:nth-child(1)>nav>.nav-tabs>li.active>a:focus
+{
+    background-color: #2ac0ff;
+  	color: #fff;
+    cursor: pointer;
+}
+.nav>li>a:focus,.nav>li>a:hover, .nav>li>a:focus{
+     background-color:#2ac0ff!important;
+ }
+.nav-tabs>li>a{
+    border-radius: 0;
+    padding: 0;
+}
+
+

@@ -1,0 +1,29 @@
+.lottery-main .main-wrap {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px 30px;
+}
+
+.lottery-main .main-wrap .tab-item {
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lottery-main .main-wrap .tab-item a {
+  display: inline-block;
+  width: 560px;
+  height: 250px;
+}
+
+.lottery-main .main-wrap .lottery1 {
+  background: url(../img/lottery/item-img1.jpg);
+}
+
+.lottery-main .main-wrap .lottery2 {
+  background: url(../img/lottery/item-img1.jpg);
+}
+
+.lottery-main .main-wrap .lottery3 {
+  background: url(../img/lottery/item-img1.jpg);
+}

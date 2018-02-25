@@ -1,0 +1,157 @@
+/*LESS Document*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.show {
+  width: 1220px;
+  height: 380px;
+  float: left;
+  padding-top: 60px;
+  position: relative;
+  margin: 0 20%;
+}
+.show a {
+
+  display: block!important;
+  width: 18px;
+  height: 35px;
+  font-family: 'Songti';
+  font-size: 50px;
+  color: #5f5f5f;
+}
+.show a.next {
+  position: absolute;
+  top: 170px;
+  left: 0;
+}
+.show a.prev {
+  position: absolute;
+  top: 170px;
+  right: 0;
+}
+.show a:hover {
+  color: #37a508;
+}
+.show .itemshow {
+  width:1098px;
+  height:205px;
+  margin:0 auto;
+  margin-top: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.show .itemshow ul.items {
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.show .itemshow ul.items li {
+  margin-right:75px;
+  width: 160px;
+  height: 205px;
+  float: left;
+}
+.show .itemshow ul.items li img {
+  width: 160px;
+  height: 160px;
+  display: block;
+}
+.show .itemshow ul.items li span{
+  font-size: 24px;
+  color: #cd000f;
+  width: 200px;
+  display: block;
+  padding-left: 27px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+.area{
+  width:100%;
+  margin:0 auto;
+  overflow:hidden;
+  position:relative;
+  cursor:pointer;
+}
+.js{
+  POSITION: relative;
+  WIDTH:100%;
+  HEIGHT: 365px;
+  margin:0 auto;
+}
+.prevBtn{
+  BACKGROUND:url(../img/btn01h.jpg) no-repeat;
+  HEIGHT:47px;
+  WIDTH: 32px;
+  display:block;
+  position:absolute;
+  top:120px;
+}
+.prevBtn:hover{
+  BACKGROUND:url(../img/blue.png) no-repeat;
+}
+.nextBtn {
+  BACKGROUND:url(../img/btn02h.jpg) no-repeat;
+  HEIGHT:47px;
+  WIDTH: 32px;
+  display:block;
+  position:absolute;
+  right:0;
+  top:120px;
+}
+.nextBtn:hover{
+  BACKGROUND:url(../img/btn02.jpg) no-repeat;
+}
+.imgSelected {
+  BACKGROUND: url(../img/jsNav.png) no-repeat;
+}
+.bg{
+  width:100%; padding-top:1px; background:url(../img/gray.png) no-repeat;_background:none;/*IE6*/
+  .filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="images/bg01.png");/*IE6*/
+  height:34px;
+  left:0;
+  FONT-WEIGHT: bold;
+  top:-42px;
+  position:absolute;
+}
+.bg-g{
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+.jsNav{
+  position:absolute;
+  top:-42px;
+  width:1100px;
+  height: 30px;
+  margin: 0 auto
+}
+.jsNav a{
+  width:275px;
+  font-size:14px;
+  display:inline;
+  height:33px;
+  line-height:33px;
+  display:block;
+  float:left;
+  text-align:center;
+  color:#fff;
+  text-decoration:none;
+}
+.jsNav a:hover{
+  background:url(../img/blue.png) no-repeat;
+  text-decoration:none;
+}
+.jsNav .imgSelected {
+  background:url(../img/blue.png) no-repeat;
+  text-decoration:none;
+}
+.qq{
+  display:none;
+  z-index:200;
+}

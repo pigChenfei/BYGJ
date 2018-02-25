@@ -1,0 +1,1 @@
+<div>您此次修改密码的验证码为：<font color="aqua">{!! $code !!}</font>，请注意使用</div>

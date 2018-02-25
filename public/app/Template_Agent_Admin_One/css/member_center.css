@@ -1,0 +1,1535 @@
+@charset "UTF-8";
+/* 引入iconfont图标库 */
+@import url('//at.alicdn.com/t/font_543685_0gn7x79d1n2hjjor.css');
+
+.member-container {
+	width: 1200px;
+	margin: 30px auto;
+	padding: 0 30px;
+}
+
+.member-container .member-wrap {
+	border-radius: 6px;
+	position: relative;
+}
+
+.member-container article {
+	float: right;
+	background: #282828;
+	width: 922px;
+	min-height: 780px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.realname-tip{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	color: #d8a659;
+	position: relative;
+	cursor: pointer;
+}
+
+.icon-question{
+	font-size: 20px;
+	margin-left: 8px;
+}
+
+.realname-tip-question{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.realname-tip-text{
+	position: absolute;
+	width: 215px;
+	padding: 8px 11px;
+	border-radius: 5px;
+	background-color: #d8a659;
+	top: 35px;
+	left: 10px;
+	z-index: 99;
+	line-height: 1.5;
+	display: none;
+	color: #FFF;
+}
+
+.realname-tip:hover .realname-tip-text,
+.realname-tip-text:hover{
+	display: block;
+}
+
+.realname-tip-text::before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 10px solid #d8a659;
+	position: absolute;
+	top: -10px;
+	left: 20px;
+}
+
+.level-detail{
+	position: relative;
+}
+
+.level-tip{
+	position: absolute;
+	width: 280px;
+	padding: 15px 11px;
+	border-radius: 5px;
+	background-color: #d8a659;
+	top: 0;
+	right: 0;
+	transform: translate(292px,-40%);
+	z-index: 99;
+	line-height: 1.8;
+	display: none;
+	color: #FFF;
+}
+
+.level-tip .table{
+	margin-top: 10px;
+}
+
+.level-tip .table + .table{
+	margin-top: 0;
+}
+
+.level-tip .table-cell{
+	vertical-align: top;
+}
+
+.level-detail::before{
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 10px solid #d8a659;
+	position: absolute;
+}
+
+.level-detail:hover::before{
+	content: "";
+	right: -15px;
+	top: 1px;
+}
+
+.level-detail:hover .level-tip{
+	display: block;
+}
+
+.level-wrap img{
+	width: 20px;
+	height: 20px;
+}
+
+.birth-wrap{position: relative;}
+.birth-wrap::before{
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 445px;
+	top: 26px;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 6px solid #d8a659;
+}
+.birth-wrap.ready::before{
+	content: none;
+}
+
+.member-container aside {
+	width: 218px;
+	height: 100%;
+	font-size: 14px;
+	background: #373737;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.member-container aside .primary-tag {
+	line-height: 58px;
+}
+
+.member-container aside .primary-tag.active>a {
+	background: #d8a659;
+}
+
+.member-container aside .primary-tag>a:hover {
+	background: #d8a659;
+}
+.member-container aside .primary-tag>a:hover .iconfont,
+.member-container aside .primary-tag.active>a .iconfont{
+	color: #FFF;
+}
+.member-container aside .primary-tag.main-tag{text-align: center;}
+.member-container aside .primary-tag.main-tag a {
+	padding-left: 0;
+}
+.member-container aside .iconfont{
+	margin-right: 20px;
+	font-size: 20px;
+	color: #d8a659;
+	vertical-align: middle;
+}
+.member-container aside .primary-tag.main-tag>a:hover {
+	background: url(../img/member/member_bg.gif) no-repeat;
+}
+
+.member-container aside .primary-tag.main-tag {
+	line-height: 64px;
+	font-size: 18px;
+	background: #666;
+	border-top-left-radius: 5px;
+	background: url(../img/member/member_bg.gif) no-repeat;
+	font-weight: bold;
+}
+
+.member-container aside .primary-tag.main-tag.active > a {
+	background: #666;
+}
+
+.member-container aside .primary-tag a {
+	width: 100%;
+}
+
+.member-container aside .primary-tag > a {
+	padding-left: 38px;
+}
+
+.member-container aside .primary-tag span {
+	top: 2px;
+	font-size: 12px;
+	margin-left: 28px;
+	transition: transform 0.5s;
+}
+
+.member-container aside .primary-tag .items {
+	font-size: 12px;
+	line-height: 42px;
+}
+
+.member-container aside .primary-tag .items a {
+	text-align: left;
+	padding-left: 80px;
+}
+.member-container aside .primary-tag .items li.active a,
+.member-container aside .primary-tag .items li:hover a {
+	color: #d8a659 !important;
+	background-color: #282828;
+}
+
+.member-container .art-title {
+	padding: 25px;
+	padding-top: 35px;
+	overflow: hidden;
+	padding-bottom: 0;
+}
+
+.droped .glyphicon-menu-right{
+	transform: rotateZ(90deg);
+}
+
+.member-container .savemoney .art-title {
+	padding-top: 20px;
+	border-bottom: 1px solid #3e3e3e;
+}
+
+.member-container .savemoney .art-title li {
+	margin: 0 5px;
+	position: relative;
+	float: left;
+}
+
+.member-container .savemoney .art-title li a {
+	background: #666;
+	padding: 12px 20px;
+}
+
+.member-container .savemoney .art-title li:hover a,
+.member-container .savemoney .art-title li.active a {
+	background: #828282;
+}
+
+.member-container .savemoney .art-title li:hover a:before,
+.member-container .savemoney .art-title li.active a:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: #d8a659;
+}
+
+.member-container .art-body {
+	width: 726px;
+	font-size: 12px;
+	margin: 30px auto;
+}
+
+.member-container .art-body .btn {
+	min-width: 110px;
+}
+
+.member-container .art-body .query {
+	margin-bottom: 20px;
+}
+
+.member-container .art-body .query input {
+	width: 160px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.member-container .art-body .query .dropdown .btn {
+	min-width: 120px;
+	background: transparent;
+	padding-left: 3px;
+	padding-right: 3px;
+	color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.member-container .art-body .query .dropdown .btn i {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.member-container .art-body .query .dropdown .caret {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -3px;
+	color: #d8a659;
+}
+
+.member-container .art-body .query .btn {
+	min-width: 80px;
+}
+
+.member-container .art-body .query .btn.btn-warning {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.btn{line-height: 1;}
+.member-container .memb-box {
+	padding: 30px 10px;
+	padding-left: 20px;
+	background: rgba(55, 55, 55, 0.5);
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+.member-container .memb-box label {
+	width: 100px;
+	text-align: right;
+	font-weight: normal;
+}
+
+.member-container .memb-box label.sm {
+	width: 70px;
+}
+
+.member-container .memb-box input,
+.member-container .memb-box select {
+	min-width: 280px;
+	max-width: 500px;
+	margin-left: 12px;
+}
+
+.member-container .memb-box option {
+	border: 0;
+}
+
+.member-container .memb-box .tip {
+	margin-left: 17px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.member-container .memb-box .pay-ico {
+	width: 230px;
+	height: 34px;
+}
+
+.member-container .memb-box .qq-pay {
+	background: #FFF url(../img/member/qq-pay.jpg) no-repeat center center;
+}
+
+.member-container .memb-box .wechat-pay {
+	background: #FFF url(../img/member/wechat-pay.png) no-repeat center center;
+}
+
+.member-container .memb-box .construction-bank {
+	background: #FFF url(../img/member/construction-bank.png) no-repeat center center;
+	background-size: 100px auto;
+	background-position-y: -37px;
+}
+
+.member-container .memb-box.fast-step {
+	height: 80px;
+	border: 0;
+	background: transparent url(../img/member/pay-fast-step.jpg);
+}
+
+.member-container .memb-box .warning {
+	margin-top: 5px;
+	margin-bottom: -5px;
+}
+
+.member-container .memb-box .warning .tip {
+	position: relative;
+	top: -1px;
+	margin-left: 5px;
+}
+.member-container .memb-box.text-center{
+	text-align: left;
+	padding-left: 20px;
+}
+.member-container .memb-box.text-center .form-inline {
+	padding-left: 30px;
+}
+.member-container .memb-box.text-center .form-inline+.form-inline{
+	padding-top: 13px;
+}
+
+.masklayer .form-inline {
+	margin-bottom: 10px;
+}
+
+.member-container .memb-box.text-center label {
+	width: 70px;
+}
+
+.member-container .memb-box.text-center .warning {
+	text-align: left;
+	padding-left: 80px;
+}
+.member-container .memb-box.text-center .getmsg {
+	margin-left: 6px;
+}
+.member-container .basicdata .memb-box.text-center .form-inline {
+	padding-left: 100px;
+}
+
+.member-container .norecord {
+	line-height: 60px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.5);
+	border-bottom: 1px solid #484848;
+}
+
+.member-container .drawmoney .warning {
+	margin-left: 116px;
+}
+
+.member-container .pay-fast .dropdown .btn {
+	background: #FFF;
+	color: rgba(0, 0, 0, 0.8) !important;
+	min-width: 230px;
+}
+
+.member-container .pay-fast .dropdown .btn i {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.member-container .pay-fast .dropdown .caret {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -3px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.member-container .pay-fast .dropdown .dropdown-menu {
+	min-width: 230px;
+}
+
+.member-container .pay-fast .steptwo .memb-box label {
+	width: 226px;
+}
+
+.member-container .transfer-center .yue-count {
+	font-size: 16px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+.member-container .transfer-center .yue-count .btn {
+	margin-left: 45px;
+	min-width: 80px;
+}
+
+.member-container .transfer-center .self-transfer {
+	margin-bottom: 30px;
+}
+
+.member-container .transfer-center .self-transfer .dropdown .btn {
+	background: #FFF;
+	color: rgba(0, 0, 0, 0.8) !important;
+	min-width: 120px;
+}
+
+.member-container .transfer-center .self-transfer .dropdown .btn i {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.member-container .transfer-center .self-transfer .dropdown .caret {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -3px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.member-container .transfer-center .self-transfer input {
+	display: inline-block;
+	width: 120px;
+}
+
+.member-container .transfer-center .self-transfer .btn {
+	min-width: 80px;
+}
+
+.member-container .transfer-center .self-transfer .btn.confirm-transfer {
+	float: right;
+}
+
+.member-container .transfer-center .table-wrap .glyphicon {
+	margin-left: 8px;
+	cursor: pointer;
+	top: 2px;
+}
+
+.member-container .transfer-center .table-wrap a .glyphicon {
+	margin-left: 0;
+	margin-right: 6px;
+}
+
+.member-container .transfer-center .table-wrap a:hover {
+	color: #d8a659 !important;
+	text-decoration: underline;
+}
+
+.member-container .livecode .yue-count {
+	font-size: 16px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+.member-container .livecode .yue-count .btn {
+	margin-left: 45px;
+	min-width: 80px;
+}
+
+.member-container .changepwd .changepwd-type,
+.member-container .mobile .changepwd-type {
+	margin-bottom: 10px;
+}
+
+.member-container .changepwd li,
+.member-container .mobile li {
+	float: left;
+}
+
+.member-container .changepwd li a,
+.member-container .mobile li a {
+	padding: 0 20px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.member-container .changepwd li.active a,
+.member-container .changepwd li:hover a,
+.member-container .mobile li.active a,
+.member-container .mobile li:hover a {
+	color: #d8a659 !important;
+	text-decoration: underline;
+}
+
+.member-container .changepwd .enter-phone,
+.member-container .changepwd .msg-code,
+.member-container .mobile .enter-phone,
+.member-container .mobile .msg-code {
+	position: relative;
+}
+
+.member-container .changepwd .enter-phone:before,
+.member-container .changepwd .msg-code:before,
+.member-container .mobile .enter-phone:before,
+.member-container .mobile .msg-code:before {
+	content: '绑定邮箱账号：';
+	width: 126px;
+	position: absolute;
+	top: -20px;
+	right: 0;
+}
+
+.member-container .changepwd .msg-code:before,
+.member-container .mobile .msg-code:before {
+	content: '邮箱验证码：';
+}
+
+.member-container .changepwd #msgcode,
+.member-container .mobile #msgcode {
+	min-width: 120px;
+	width: 120px;
+}
+
+.member-container .changepwd .getmsg,
+.member-container .mobile .getmsg {
+	min-width: 100px;
+	width: 100px;
+	margin-left: 5px;
+}
+
+.member-container .bankdata .memb-box .table-cell {
+	padding-left: 0;
+}
+
+.member-container .change-ptpwd {
+	position: relative;
+}
+
+.member-container .change-ptpwd .setptpwd,
+.member-container .change-ptpwd .regptpwd {
+	position: relative;
+}
+
+.member-container .change-ptpwd .setptpwd:before,
+.member-container .change-ptpwd .regptpwd:before {
+	content: "设置PT密码：";
+	position: absolute;
+	width: 126px;
+	top: -20px;
+	right: 0;
+}
+.member-container .change-ptpwd .ptusername:before{
+	content: "PT用户名：";
+}
+
+.member-container .change-ptpwd .regptpwd:before {
+	content: "确认PT密码：";
+}
+
+.member-container .memb-box.memb-bottomtip {
+	bottom: 20px;
+	width: 726px;
+	border-style: dashed;
+	background: none;
+	color: #c2c2c2;
+	padding: 0;
+	border: 0;
+	font-size: 14px;
+}
+.memb-box.memb-bottomtip i{color: #d8a659;}
+.member-container .change-ptpwd .memb-bottomtip .table-cell {
+	padding: 0;
+}
+
+.basicdata .infobox{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+.basicdata .infobox a{
+	color: #d8a659!important;
+	text-decoration: underline;
+}
+
+.basicdata .infobox span{
+	display: inline-block;
+	width: 150px;
+}
+
+.member-container .basicdata .choosemale input {
+	width: auto;
+	min-width: auto;
+}
+
+.member-container .basicdata .choosemale .input-box {
+	width: 230px;
+	display: inline-block;
+	text-align: left;
+}
+
+.member-container .basicdata .choosemale .input-box label {
+	width: auto;
+	margin-right: 10px;
+}
+
+.member-container .basicdata .choosemale .input-box input {
+	margin-right: 15px;
+	position: relative;
+	top: -2px;
+}
+
+.member-container .discount .btn {
+	min-width: auto;
+}
+
+.member-container .recommend-friends .form-inline {
+	position: relative;
+}
+
+.member-container .recommend-friends .form-inline .tooltip {
+	right: 30px;
+	top: 5px;
+}
+
+.member-container .recommend-friends .form-inline .warning {
+	margin-left: 155px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.member-container .recommend-friends .form-inline .warning i {
+	color: #d8a659;
+	margin: 0 3px;
+}
+
+.member-container .accounting .twolines {
+	line-height: 1.5 !important;
+	vertical-align: middle;
+}
+
+.member-container .accounting .twolines a {
+	text-decoration: underline;
+	color: #d8a659 !important;
+}
+.member-container .accounting .twolines a:focus{
+	outline: none;
+}
+
+.member-container .sitemsg .theme i {
+	cursor: pointer;
+}
+
+.member-container .sitemsg .theme i:hover {
+	text-decoration: underline;
+}
+
+.member-container .sitemsg .dialog-wrap {
+	width: 720px;
+	padding: 40px;
+}
+
+.member-container .sitemsg .dialog-wrap p {
+	text-align: left;
+	text-indent: 2em;
+}
+
+.member-container .sitemsg .dialog-wrap .btn {
+	width: 120px;
+}
+
+.member-container .table-wrap {
+	border-radius: 5px;
+	overflow: hidden;
+	border: 1px solid #484848;
+}
+
+.member-container .table-wrap .table {
+	font-size: 12px;
+	border-color: #484848;
+}
+
+.member-container .table-wrap .table>thead>tr>th {
+	border-color: #484848;
+	border-bottom-width: 1px;
+	background: #373737;
+	line-height: 48px;
+	font-weight: 100;
+	padding: 8px 0;
+}
+
+.member-container .table-wrap .table>thead>tr>th+th {
+	border-left: 1px solid #484848;
+}
+
+.member-container .table-wrap .table>tbody>tr>td {
+	border-color: #484848;
+	line-height: 38px;
+	padding: 8px 0;
+}
+
+.member-container .table-wrap .table>tbody>tr>td+td {
+	border-left: 1px solid #484848;
+}
+
+.member-container .table-wrap .table.table-y>tbody>tr>td {
+	line-height: 32px;
+	width: 50%;
+}
+
+.member-container .table-wrap .table.table-y>tbody>tr>td.th {
+	background: #373737;
+}
+
+.member-container .performance-excl .table-wrap {
+	float: left;
+	width: 49%;
+	margin-right: 1%;
+}
+h4.art-tit{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	padding-left: 15px;
+	border-left: 3px solid #d8a659;
+	transform: translateX(-18px);
+	letter-spacing:1px;
+}
+.member-container .bankcard-wrap {
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+
+.member-container .bankcard-wrap .item {
+	width: 177px;
+	height: 85px;
+	background-size: cover;
+	float: left;
+	background: #373737;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	margin-bottom: 10px;
+	cursor: pointer;
+	position: relative;
+}
+
+.member-container .bankcard-wrap .item+.item {
+	margin-left: 6px;
+}
+
+.member-container .bankcard-wrap .item:nth-child(4n+1) {
+	margin-left: 0;
+}
+
+.member-container .bankcard-wrap .item.add {
+	background-image: url(../img/member/add.png);
+	background-position: center 13px;
+	background-size: auto 40%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border: 1px dashed rgba(255, 255, 255, 0.2);
+}
+
+.member-container .bankcard-wrap .item:hover {
+	border: 1px solid #66afe9;
+}
+
+.member-container .bankcard-wrap .item.add:before {
+	content: '添加银行卡';
+	color: rgba(255, 255, 255, 0.2);
+	position: absolute;
+	bottom: 13px;
+	left: 60px;
+}
+
+.member-container .bankcard-wrap .item p {
+	position: absolute;
+	color: #fff;
+	bottom: 12px;
+	left: 12px;
+	font-size: 12px;
+	margin: 0;
+}
+
+.member-container .bankcard-wrap .glyphicon {
+	right: 0;
+	top: 2px;
+	position: absolute;
+	font-size: 16px;
+	display: none;
+}
+
+.member-container .bankcard-wrap .bank {
+	background-size: cover;
+}
+
+.member-container .bankcard-wrap .bank:hover span {
+	display: inline-block;
+}
+
+.member-container .bankcard-wrap .zs {
+	background-image: url(../img/bankbg/zs-bg.png);
+}
+
+.member-container .bankcard-wrap .js {
+	background-image: url(../img/bankbg/js-bg.png);
+}
+
+.member-container .bankcard-wrap .ny {
+	background-image: url(../img/bankbg/ny-bg.png);
+}
+
+.member-container .bankcard-wrap .bj {
+	background-image: url(../img/bankbg/bj-bg.png);
+}
+
+.member-container .bankcard-wrap .zg {
+	background-image: url(../img/bankbg/zg-bg.png);
+}
+
+.member-container .bankcard-wrap .gs {
+	background-image: url(../img/bankbg/gs-bg.png);
+}
+
+.member-container .choosebank {
+	width: 230px;
+	position: relative;
+}
+
+.member-container .choosebank .btn {
+	width: 100%;
+	background: #FFF;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.member-container .choosebank .caret {
+	left: inherit;
+	right: 12px;
+	top: 12px;
+	color: #000;
+	position: absolute;
+}
+
+.member-container .choosebank .dropdown-menu {
+	min-width: 660px;
+	padding: 5px;
+}
+
+.member-container .choosebank .dropdown-menu li {
+	width: 160px;
+	float: left;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	overflow: hidden;
+}
+
+.member-container .choosebank .dropdown-menu li:hover {
+	border-color: #d8a659;
+}
+
+.member-container .choosebank .dropdown-menu a {
+	height: 32px;
+	padding: 0;
+}
+
+.member-container .choosebank .bankico-wrap {
+	width: 160px;
+	height: 32px;
+	margin-left: 18px;
+}
+
+.member-container .choosebank .bankname {
+	height: 32px;
+	background-image: url(../img/common/bank_icons.jpg);
+}
+
+.member-container .choosebank .pa {
+	background-position: 35px 0;
+}
+
+.member-container .choosebank .gd {
+	background-position: -155px 0;
+}
+
+.member-container .choosebank .gs {
+	background-position: -305px 0;
+}
+
+.member-container .choosebank .hx {
+	background-position: 25px -32px;
+}
+
+.member-container .choosebank .js {
+	background-position: -150px -32px;
+}
+
+.member-container .choosebank .jt {
+	background-position: -295px -32px;
+}
+
+.member-container .choosebank .ms {
+	background-position: 20px -64px;
+}
+
+.member-container .choosebank .nb {
+	background-position: -125px -64px;
+}
+
+.member-container .choosebank .nj {
+	background-position: -290px -64px;
+}
+
+.member-container .choosebank .ny {
+	background-position: 15px -96px;
+}
+
+.member-container .choosebank .gf {
+	background-position: -150px -96px;
+}
+
+.member-container .choosebank .pf {
+	background-position: -293px -96px;
+}
+
+.member-container .choosebank .sh {
+	background-position: 35px -128px;
+}
+
+.member-container .choosebank .tj {
+	background-position: -140px -128px;
+}
+
+.member-container .choosebank .xy {
+	background-position: -300px -128px;
+}
+
+.member-container .choosebank .yz {
+	background-position: 6px -160px;
+}
+
+.member-container .choosebank .zg {
+	background-position: -138px -160px;
+}
+
+.member-container .choosebank .zs {
+	background-position: -300px -160px;
+}
+
+.member-container .choosebank .zx {
+	background-position: 25px -192px;
+}
+
+.member-container .choosebank .bj {
+	background-position: -140px -192px;
+}
+
+.member-container .add-card .form-inline {
+	margin-bottom: 10px;
+}
+
+.member-container .add-card label {
+	width: 80px;
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: 100;
+}
+
+.member-container .add-card input {
+	width: 230px !important;
+	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.member-container .add-card .dropdown .caret {
+	left: inherit;
+	right: 12px;
+	top: 12px;
+}
+
+.member-container .add-card .dropdown .btn {
+	width: 230px;
+	padding: 0;
+	line-height: 34px;
+	margin-bottom: 0;
+	border-radius: inherit;
+	text-align: left;
+	padding-left: 42px;
+	background: none;
+	color: rgba(0, 0, 0, 0.8) !important;
+	border-bottom: 1px solid #ccc;
+}
+
+.member-container .add-card .dropdown-menu {
+	left: 87px;
+	width: 232px;
+}
+
+.member-container .add-card .dropdown-menu li a {
+	padding-left: 15px;
+	line-height: 30px;
+}
+
+.member-container .del-card .dialog-head {
+	height: 37px;
+	background: url(../img/member/dear-user.png) no-repeat center;
+}
+
+.member-container .del-card .dialog-foot .btn {
+	width: 120px;
+	margin: 0 10px;
+}
+
+.member-container .usercenter .userdata li {
+	width: 50%;
+	float: left;
+	line-height: 40px;
+}
+
+.member-container .usercenter .userdata li .tit {
+	width: 45%;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.member-container .usercenter .userdata li .datas {
+	width: 55%;
+	float: left;
+}
+
+.member-container .usercenter .userdata li .datas .btn {
+	font-size: 12px;
+	padding: 4px 4px;
+	margin-top: 7px;
+	margin-right: 40px;
+	min-width: auto;
+	min-height: auto;
+	line-height: 1;
+	float: right;
+}
+
+.member-container .usercenter .tg-website .tooltip {
+	position: absolute;
+	right: -90px;
+	top: 4px;
+}
+
+.member-container .memb-excl table a {
+	text-decoration: underline;
+}
+
+.member-container .memb-excl table a:hover {
+	color: #d8a659 !important;
+}
+
+.member-container .memb-excl .masklayer .dialog-wrap {
+	width: 840px;
+	padding: 0;
+	padding-top: 45px;
+}
+
+.member-container .memb-excl .masklayer .dialog-wrap .dialog-head {
+	margin-bottom: 0;
+}
+
+.member-container .perfectdata .form-inline {
+	position: relative;
+}
+
+.member-container .perfectdata span {
+	color: #000;
+}
+
+.member-container .perfectdata input {
+	width: 100% !important;
+}
+
+.member-container .perfectdata .form-control[readonly] {
+	background-color: #FFF;
+}
+
+.member-container .perfectdata .dropdown .btn {
+	width: 100%;
+}
+
+.member-container .perfectdata .dropdown .dropdown-menu {
+	width: 320px;
+	left: 0;
+}
+
+.member-container .perfectdata .dropdown .dropdown-menu li {
+	text-indent: 28px;
+}
+
+.member-container input::-webkit-input-placeholder,
+.member-container textarea::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, 0.5) !important;
+	font-size: 12px;
+}
+
+.member-container input:-moz-placeholder,
+.member-container textarea:-moz-placeholder {
+	color: rgba(255, 255, 255, 0.5) !important;
+	font-size: 12px;
+}
+
+.member-container input::-moz-placeholder,
+.member-container textarea::-moz-placeholder {
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.member-container input:-ms-input-placeholder,
+.member-container textarea:-ms-input-placeholder {
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.datetimepicker {
+	color: #000 !important;
+}
+
+.member-container .table-wrap .table>thead>tr>th {
+	line-height: 24px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.member-container .table-wrap .table>tbody>tr>td {
+	line-height: 38px;
+	vertical-align: middle;
+	padding: 0;
+}
+
+.member-container .transfer-center .yue-count,
+.member-container .livecode .yue-count {
+	padding-left: 0;
+}
+
+.member-container .table-wrap .table>tbody>tr>td+td,
+.member-container .table-wrap .table>thead>tr>th+th {
+	border-left: 0;
+}
+
+.member-container .table-wrap .table>tbody>tr:nth-child(2n) {
+	background-color: rgba(55, 55, 55, 0.5);
+}
+
+.pagenation-container {
+	margin-top: 10px;
+}
+
+.table>tbody>tr>td {
+	border-top: 0;
+}
+
+.table>thead>tr>th {
+	border: 0;
+}
+
+.member-container .memb-box label {
+	margin: 0;
+	line-height: 30px;
+	position: relative;
+	top: 1px;
+}
+
+body {
+	color: rgba(255, 255, 255, 0.8) !important;
+}
+
+option {
+	color: #333;
+}
+
+.member-container .art-body .query input {
+	width: 145px;
+	margin-right: 15px;
+}
+
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+	background-color: transparent;
+}
+
+.query .dropdown {
+	margin-right: 15px;
+}
+
+.member-container .pay-fast .steptwo .memb-box em {
+	margin-left: 6px;
+	position: relative;
+	top: 1px;
+}
+
+.member-container .del-card .dialog-head {
+	height: 37px;
+	background: url(../img/member/dear-user.png) no-repeat center;
+}
+
+.member-container .del-card .dialog-foot .btn {
+	width: 120px;
+	margin: 0 10px;
+}
+
+.member-container .usercenter .userdata li .tit {
+	width: 45%;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.member-container .usercenter .userdata li .datas {
+	width: 55%;
+	float: left;
+}
+
+.member-container .usercenter .userdata li .datas .btn {
+	font-size: 12px;
+	padding: 4px 4px;
+	margin-top: 7px;
+	margin-right: 40px;
+	min-width: auto;
+	min-height: auto;
+	line-height: 1;
+	float: right;
+}
+
+.member-container .usercenter .tg-website {
+	position: relative;
+	width: 88%;
+	line-height: 30px;
+	padding-left: 42px;
+}
+
+.member-container .usercenter .tg-website .tooltip {
+	position: absolute;
+	right: -90px;
+	top: 4px;
+}
+
+.member-container .memb-excl table a {
+	text-decoration: underline;
+}
+
+.member-container .memb-excl table a:hover {
+	color: #C54445 !important;
+}
+
+.member-container .memb-excl .masklayer .dialog-wrap {
+	width: 840px;
+	padding: 0;
+	padding-top: 45px;
+}
+
+.member-container .memb-excl .masklayer .dialog-wrap .dialog-head {
+	margin-bottom: 0;
+}
+
+.member-container .perfectdata .form-inline {
+	position: relative;
+}
+
+.member-container .perfectdata span {
+	color: #000;
+}
+
+.member-container .perfectdata input {
+	width: 100% !important;
+}
+
+.member-container .perfectdata .form-control[readonly] {
+	background-color: #FFF;
+}
+
+.form-control{
+	font-size:12px;
+}
+
+.member-container .perfectdata .dropdown .btn {
+	width: 100%;
+}
+
+.member-container .perfectdata .dropdown .dropdown-menu {
+	width: 320px;
+	left: 0;
+}
+
+.member-container .perfectdata .dropdown .dropdown-menu li {
+	text-indent: 28px;
+}
+
+.datetimepicker,
+.table-condensed {
+	color: #000 !important;
+}
+
+.art-tit {
+	font-size: 16px;
+	margin-bottom: 20px;
+	border-left: 4px #C54445 solid;
+	padding-left: 12px;
+	letter-spacing: 2px;
+}
+
+.member-container .memb-box .pay-ico {
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position-x: 10px;
+	background-image: url(../img/member/bj.jpg);
+}
+
+.member-container .choosebank .dropdown-menu li {
+	width: 145px;
+}
+
+.member-container .choosebank .bankico-wrap {
+	margin-left: 0;
+}
+
+.member-container .choosebank .dropdown-menu,
+.member-container .pay-fast .dropdown .dropdown-menu {
+	min-width: 600px;
+}
+
+.member-container .transfer-center .self-transfer .dropdown .btn {
+	text-align: left;
+	height: 30px;
+	padding: 6px 12px;
+	padding-left: 10px;
+	transform: translateY(-1px);
+	background: transparent;
+	border: 1px solid #484848;
+}
+
+.member-container .art-body .query {
+	height: 30px;
+}
+
+.member-container .art-body .query .dropdown .btn {
+	text-align: left;
+	height: 30px;
+	padding: 6px 12px;
+	padding-left: 10px;
+	transform: translateY(-1px);
+	border: 1px solid #484848;
+}
+.member-container .btn{font-size: 12px;}
+.member-container .transfer-center .self-transfer .dropdown .btn i{
+	color: rgba(255,255,255,0.5);
+}
+.member-container .transfer-center .self-transfer .dropdown .caret{
+	color: #d8a659;
+}
+.member-container .transfer-center .self-transfer .btn.confirm-transfer,
+.recommend-friends .memb-box .btn,
+.member-container .art-body .query .btn.btn-warning {
+	height: 30px;
+	padding: 6px 12px;
+}
+.btn.btn-warning{
+	height: 30px;
+	padding: 6px 12px;
+	font-size: 14px;
+}
+.form-control {
+    height: 30px;
+    padding: 4px 6px;
+    background: transparent;
+    border-color: #484848;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+}
+.member-container input, .member-container select {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+.datetimepicker table{font-size: 14px;}
+.member-container aside .primary-tag .items{background-color: #2f2f2f;}
+h4.font-red{
+	color: #d8a659;
+}
+.backquery{
+	margin-right: 10px;
+	width: 30px;
+	height: 30px;
+	background: url(../img/member/back.png) center center no-repeat;
+	background-size: auto 20px;
+}
+.drawmoney input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px #FFFFFF inset !important;
+}
+.drawmoney .memb-box{
+	padding-left: 60px;
+	padding-right: 60px;
+}
+.drawmoney .memb-box input{
+	min-width: 350px;
+}
+.draw-item span{
+	display: inline-block;
+	width: 72px;
+	text-align: right;
+	margin-right: 20px;
+}
+.draw-item{line-height: 1;}
+.draw-item+.draw-item{
+	margin-top: 15px;
+}
+.changepwd .memb-box input{
+	min-width: 230px;
+}
+.recommend-friends .form-inline+.form-inline{
+	padding-top: 10px;
+}
+
+/* 修改select样式 */
+.savemoney select {
+  /*很关键：将默认的select选择框样式清除*/  
+  appearance:none;  
+  -moz-appearance:none;  
+  -webkit-appearance:none;  
+  
+  /*在选择框的最右侧中间显示小箭头图片*/  
+	background: url("../img/member/arrow-down.png") no-repeat scroll transparent!important; 
+	background-position: 260px center !important; 
+	background-size: auto 8px!important;  
+  
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/  
+  padding-right: 14px!important;  
+}  
+select::before{content:'1111'}
+select::-ms-expand { display: none; } 
+
+.member-container .memb-box select[name="activityId"]{
+	min-width: 520px;
+	background-position: 500px center !important; 
+}
+
+.start-time,.end-time,.status,.transferto-button,.transferfrom-button{
+	background: url("../img/member/arrow-down.png") no-repeat!important; 
+	background-position: 125px center!important; 
+	background-size: auto 8px!important;  
+}
+.status,.transferto-button,.transferfrom-button{
+	background-position-x: 100px!important;
+}
+.transfer-record tbody+tbody{
+	border-top: 1px solid #484848;
+}
+.transfer-record .b-b{
+	border-bottom: 1px solid #484848;
+}
+.transfer-record .b-l{
+	border-left: 1px solid #484848!important;
+}
+.transfer-record .table-wrap .table > tbody > tr > td{
+	line-height: 26px;
+}
+.transfer-record .table > tbody > tr > td.t-l:last-child{
+	text-indent: 32px;
+	width: 145px;
+}
+.transfer-record .table-wrap .table>tbody>tr:nth-child(2n){
+	background-color: initial;
+}
+.transfer-record tbody:nth-child(2n+1){
+	background-color: rgba(55, 55, 55, 0.5);
+}
+.discount table,table tr th, table tr td { border:1px solid #fff; }
+
+.member-container .recommend-friends .form-inline .tooltip {
+	top: 15px;}

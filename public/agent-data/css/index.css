@@ -1,0 +1,102 @@
+
+/*顶部*/
+.container{
+	/*min-width: 1200px;*/
+	width: 1200px !important;
+	padding: 0;
+}
+
+/*首页内容*/
+#myTabContent #myCarousel .carousel-inner img{
+	width: 100%;
+}
+#myTabContent #myCarousel .carousel-btn{
+	width: 50%;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	left: 25%;
+}
+#myTabContent #myCarousel .carousel-btn img{
+	width: 14vw;
+	min-width: 170px;
+}
+
+/*佣金政策  合营协议*/
+.public .banner img{
+	width: 100%;
+}
+.public h4{
+	color: #f55a48;
+	font-size: 16px;
+}
+.public h5{
+	margin: 10px 0;
+}
+.public p{
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+.public .chapter{
+	margin-top: 20px;
+}
+#policy table{
+	width: 100%;
+}
+#policy table thead{
+	background-color: #f55a48;
+	color: white;
+}
+#policy table th,#policy table td{
+	border: 1px solid #f55a48;
+	text-align: center;
+}
+#pattern h3{
+	color: #fe0000;
+	font-size: 23px !important;
+}
+
+/*页尾*/
+footer{
+	background-color: #545454;
+	padding: 20px 0;
+	color: white;
+}
+footer .company_logo{
+	display: inline-block;	
+	width: 16%;
+	margin-bottom: 10px;
+}
+footer #nav_footer li{
+	list-style: none;
+	display: inline-block;
+	width: 70px;
+	text-align: center;
+	font-size: 13px;
+}
+footer #nav_footer li a{
+	text-decoration: none;
+	color: white;
+	border-right: 1px solid gray;
+	padding-right: 8px;
+	
+}
+footer .row_left{
+	width: 70%;
+	display: inline-block;
+}
+footer .row_left p{
+	padding-left: 5px;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+footer .row_right{
+	width: 30%;
+	display: inline-block;
+}
+footer .media img{
+	width: 40px;
+	margin-top: 10px;
+}
+

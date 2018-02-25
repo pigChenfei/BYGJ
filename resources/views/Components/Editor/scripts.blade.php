@@ -1,0 +1,1 @@
+<script src="{!! asset('wangEditor/js/wangEditor.min.js') !!}"></script>

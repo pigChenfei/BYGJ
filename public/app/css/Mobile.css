@@ -1,0 +1,53 @@
+.Mobile-png{
+    background: url("../img/Mobile.png") center;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 768px;
+    margin: 0 auto;
+    padding-top: 134px;
+    padding-left: 33px;
+}
+.Mobile-png>div{
+    width: 1098px;
+    margin: 0 auto;
+}
+.Mobile-show{
+    float:left;
+}
+.Mobile-right{
+    height: 634px;
+    width: 550px;
+    float: right;
+    padding-top: 100px;
+}
+.Mobile-right>p{
+    color: #2ac0ff;
+    font-size: 40px;
+
+}
+.Mobile-some{
+    margin-top: 45px;
+}
+.Mobile-some>.pull-left{
+    width: 128px;
+    margin-top: 5px;
+}
+.Mobile-some>.pull-left>div{
+    color: #2ac0ff;
+    font-size: 14px;
+    margin-top: 18px;
+}
+.Mobile-some>.pull-right>p{
+    font-size: 24px;
+    color: #fff;
+    float: left;
+}
+.Mobile-some>.pull-right{
+    width: 400px;
+}
+.Mobile-some>.pull-right>div{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 25px;
+    float: left;
+}

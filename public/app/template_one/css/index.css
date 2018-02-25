@@ -1,0 +1,145 @@
+header {
+	background: rgba(0, 0, 0, 0.1)
+}
+
+header .header-mid .form-group {
+	background: rgba(0, 0, 0, .298039)
+}
+
+.header-pad {
+	display: none
+}
+
+.index-main {
+	padding-top: 30px
+}
+
+#myCarousel {
+	top: 0;
+	position: relative
+}
+
+#myCarousel .pmd {
+	position: absolute;
+	width: 100%;
+	bottom: 72px;
+	line-height: 30px;
+	height: 30px;
+	overflow: hidden;
+}
+
+#myCarousel .pmd .pmd-wrap {
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+	background: #000;
+}
+
+#myCarousel .text-box{
+	width: 1170px;
+}
+
+#myCarousel .pmd .pmd-wrap a:hover {
+	text-decoration: underline
+}
+
+#myCarousel .pmd .glyphicon {
+	top: 6px;
+	left: 7px;
+	font-size: 18px;
+	margin-right: 12px
+}
+
+#myCarousel .carousel-indicators {
+	bottom: 110px
+}
+
+.index-main .main-wrap .tab-wrap .col-4 {
+	width: 370px;
+	height: 300px;
+}
+
+.index-main {
+	background: #1a1a1a;
+}
+
+#myCarousel .pmd {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	line-height: 30px;
+	height: 30px;
+	overflow: hidden;
+	background: #0c0c0c;
+}
+
+#myCarousel .pmd .pmd-wrap {
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+	background: none;
+}
+
+#myCarousel .carousel-indicators {
+	bottom: 50px;
+}
+
+.index-main .main-wrap .tab-wrap .col-6 {
+	width: 562px;
+	height: 300px;
+	margin-top: 15px;
+}
+
+.index-main .main-wrap .tab-wrap .col-6+.col-6 {
+	margin-left: 16px;
+}
+
+.index-main {
+	height: 680px;
+}
+
+.tab-item .modal {
+	display: none;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.9);
+	border: 1px solid #f3c06e;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.tab-item:hover .modal {
+	display: block;
+}
+
+.btnwrap {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 220px;
+}
+
+.index-main .main-wrap .tab-wrap .tab-item .btnwrap a {
+	width: 80px;
+	height: 30px;
+	float: left;
+	color: #f3c06e;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 12px 15px;
+}
+
+.index-main .main-wrap .tab-wrap .tab-item .btnwrap a:hover {
+	background: #f3c06e;
+	color: #000;
+}
+#myCarousel,
+.carousel-inner > .item > a{
+	height: 598px;
+}
+header .header-mid input.form-control{
+	background-color: #363636;
+}

@@ -1,0 +1,117 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	min-width: 1200px;
+	font-family: "微软雅黑" !important;
+}
+ul,li,p{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	min-width: 1200px;
+	padding: 0;
+}
+
+#page_header{
+	vertical-align: middle;
+	min-width: 1200px;
+	background-color: #333;
+}
+#page_header .form_header{
+	width: 740px;
+	text-align: right;
+	float: right;
+}
+#page_header .header-header{
+	width: 720px;
+	margin-top: 20px;
+	padding-right: 0;
+}
+
+#page_header .header-header .input-group{
+	border: 1px solid white;
+	width: 160px;
+}
+@media only screen and (max-width:768px ) {
+	#page_header .header-header.input-group{
+		display: inline-block;
+		height: 36px;
+	}
+}
+#page_header #btn_forget{
+	border: none;
+	color: red;
+	background: none;
+	padding:0;
+	font-size: 11px;
+}
+#page_header #btn_login{
+	background :none;
+	border: 1px solid red;
+	color: red;
+	border-radius: 2px;
+}
+#page_header .header-header .btn-info{
+	border: none;
+	background-color: #f55a48;
+	border-radius: 2px;
+}
+#page_header #pwd{
+	border-right: none;
+}
+#page_header input{
+	width: 80%;
+	border: none;
+	background: none;
+	color: white;
+}
+
+#page_header input:focus{
+	box-shadow: none;
+	border-color: #CCCCCC;
+}
+#page_header #btn_forget:hover{
+	background: none;
+	border-left: none;
+}
+#page_header .input-group-addon{
+	background-color: black;
+	border: none;
+	color: white;
+	font-style: italic;
+}
+/*导航*/
+.navbar-default{
+	border: none;
+	border-radius: 0;
+	background-color: #98171a;
+	margin: 0;
+	/*box-shadow: 0px 2px 4px gray;*/
+	z-index: 1111;
+}
+.navbar-default .nav li{
+	width: 120px;
+	height: 50px;
+	text-align: center;
+}
+.navbar-default .nav li a{
+	color: white;
+	margin-top: 10px;
+	height: 30px;
+	padding: 5px 10px;
+}
+.navbar-default .nav li a:hover{
+	color: lightblue;
+	background: none;
+}
+.navbar-default .nav li.active a,.navbar-default .nav li.active a:hover,.navbar-default .navbar-nav > .active > a:focus{
+	background: none;
+	color: white;
+}
+.navbar-default .nav li.active,.navbar-default .nav li.active a:visited{
+	background-color: #811315;
+}
+#myTab{
+	width: 1200px;
+}
